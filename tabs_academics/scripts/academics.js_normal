@@ -1,0 +1,107 @@
+$(document).ready(function(){
+    let main_list = document.getElementById("academics_options");
+    main_list.innerHTML="";
+
+    
+    var options_name =new Array();
+        options_name = ["University Class Schedule",
+                        "University Course Description Search",
+                        "University Final Exam Schedule",
+                        "Academic Summary",
+                        "Academic Advising",
+                        "Diploma And Graduation Information",
+                        "Class And Grade Information",
+                        "General Information"];
+    var options_link = new Array();
+        options_link = ["university_class_schedule.html",
+                        "https://www.bu.edu/phpbin/course-search/index.php",
+                        "#","#","#","#","#","#"];
+    
+    var sub_option_class_and_grade_info = new Array();
+        sub_option_class_and_grade_info = ["Current Schedule", 
+                                            "Registration", 
+                                            "Final Exam Schedule", 
+                                            "Classes", 
+                                            "Grades", 
+                                            "External Credits & Test Scores",
+                                            "Transcript Preview and Ordering" ];
+    var sub_option_class_and_grade_info_links = new Array();
+        sub_option_class_and_grade_info_links = ["#","#","#","#","#","#","#"];
+
+    var sub_option_general_info = new Array();
+        sub_option_general_info = ["Academic Calendar", 
+                                    "Registrar's Office FAQ's", 
+                                    "Registrar's Office Downloadable Forms",
+                                    "BU Libraries",
+                                    "Summer Term"];
+    var sub_option_general_info_links = new Array();
+        sub_option_general_info_links = ["#","#","#","#","#"];
+
+    var create_option_li;
+    var create_option_a;
+    
+    
+    
+        options_name.forEach(function(name, id){
+            create_option_li = document.createElement("li");
+                create_option_li.setAttribute("class","nav-item active");
+        
+            create_option_a = document.createElement("a");
+                create_option_a.setAttribute("class","nav-link");
+                create_option_a.setAttribute("href",options_link[id]);
+                create_option_a.innerHTML= name;
+
+                if(id==0){
+                    create_option_a.setAttribute("style","margin-top: initial;");
+                }
+
+                create_option_li.appendChild(create_option_a);
+                main_list.appendChild(create_option_li);
+
+                if(name === "Class And Grade Information"){
+                    let create_sub_option_li;
+                    let create_sub_option_a;
+
+                    sub_option_class_and_grade_info.forEach(function(name,id){
+                        
+                        create_sub_option_li = document.createElement("li");
+                            create_sub_option_li.setAttribute("class","nav-item active");
+                            create_sub_option_li.setAttribute("style","margin-left: 10%;");
+                        create_sub_option_a = document.createElement("a");
+                            create_sub_option_a.setAttribute("class","nav-link");
+                            create_sub_option_a.setAttribute("href",sub_option_class_and_grade_info_links[id]);
+                            
+                            create_sub_option_a.innerHTML= name;
+                        create_sub_option_li.appendChild(create_sub_option_a);
+                        main_list.appendChild(create_sub_option_li);
+                    });
+                    
+                }
+                else
+                if(name === "General Information"){
+                    let create_sub_option_li;
+                    let create_sub_option_a;
+
+                    sub_option_general_info.forEach(function(name,id){
+                        
+                        create_sub_option_li = document.createElement("li");
+                            create_sub_option_li.setAttribute("class","nav-item active");
+                            create_sub_option_li.setAttribute("style","margin-left: 10%;");
+                        create_sub_option_a = document.createElement("a");
+                            create_sub_option_a.setAttribute("class","nav-link");
+                            create_sub_option_a.setAttribute("href",sub_option_general_info_links[id]);
+                            
+                            create_sub_option_a.innerHTML= name;
+                        create_sub_option_li.appendChild(create_sub_option_a);
+                        main_list.appendChild(create_sub_option_li);
+                    });
+                    
+                }
+
+
+                
+    });
+
+                
+
+    });

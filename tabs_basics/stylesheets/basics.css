@@ -1,0 +1,19 @@
+#left_column{
+    height: 100vh;
+    border-right-style: inset;
+    border-right-color: rgb(223, 5, 5);
+    border-right-width: thick;
+    
+    border-top: solid;
+    border-top-color: rgb(223, 5, 5);
+    border-top-width: thin;
+}
+
+#basics_options{
+    list-style: none;
+}
+
+#basics_options li a{
+    margin-top: -2%;
+    margin-bottom: -4%;
+}

@@ -1,0 +1,23 @@
+.d_second_row{
+    /*margin-top: 1%;*/
+    margin-left: 3%;
+    font-family: 'Overlock', cursive;
+}
+
+div[class="container d_second_row"] div[class="row"]{
+    margin-top: 1%;
+}
+
+.or_and_line{
+    color: rgb(40, 23, 151);
+    font-weight: bolder;
+    font-style: oblique;
+    padding-left: 3%;
+    padding-bottom: 1%;
+}
+
+.d_highlight{
+    color: rgb(40, 23, 151);
+    font-weight: bolder;
+    text-decoration: underline;
+}
