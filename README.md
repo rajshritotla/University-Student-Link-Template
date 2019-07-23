@@ -3,6 +3,10 @@ Template/Redesigning Boston University student link
 Its designed to satisfy academic requirements.
 Template has better UX & UI and mobile responsiveness as compared to original link.
 
+```
+OUTPUT directory contains a few images, to give an idea how about project's UI, UX, features and working
+```
+
 # Home Page
 ```
 https://github.com/rajshritotla/University-Student-Link-Template/blob/master/main/html_pages/student_link.html
