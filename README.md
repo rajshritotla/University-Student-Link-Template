@@ -3,24 +3,8 @@ Template/Redesigning Boston University student link
 Its designed to satisfy academic requirements.
 Template has better UX & UI and mobile responsiveness as compared to original link.
 
-# Technologies
-HTML
-
-CSS
-
-Bootstrap
-
-PureCss.io
-
-Flex Box
-
-JS
-
-Es6
-
-Jquery
-
-Google Fonts
+# Technologies Implemeted
+HTML    CSS   Bootstrap   PureCss.io    Flex Box    JS    Es6   Jquery    Google Fonts
 
 # Features
 Content is being showed dynamically
