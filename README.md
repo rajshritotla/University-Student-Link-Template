@@ -37,6 +37,8 @@ Mobile Responsive
 
 Rest folders are one for each tab option and have not much working content because they are all similar 
 
-# Each folder have their own HTML Pages, Css Files(stylesheets), JS files folders(scripts)
+```
+Each folder have their own HTML Pages, Css Files(stylesheets), JS files folders(scripts)
+```
 
 I tried to minimize dependencies between pages and make content more arranged and user friendly
