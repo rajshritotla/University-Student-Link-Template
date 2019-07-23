@@ -4,8 +4,11 @@ Its designed to satisfy academic requirements.
 Template has better UX & UI and mobile responsiveness as compared to original link.
 
 ```
-OUTPUT directory contains a few images, to give an idea how about project's UI, UX, features and working
+"OUTPUT" directory contains a few images, to give an idea how about project's UI, UX, features and working.
+
+Click "Download" to view whole image.
 ```
+
 
 # Home Page
 ```
